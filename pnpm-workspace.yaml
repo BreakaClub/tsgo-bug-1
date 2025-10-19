@@ -1,0 +1,9 @@
+packages:
+  - pkg1
+  - pkg2
+
+linkWorkspacePackages: deep
+
+overrides:
+  "@breaka/pkg2": "workspace:*"
+

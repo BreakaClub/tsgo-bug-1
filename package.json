@@ -1,0 +1,6 @@
+{
+  "name": "@breaka/tsgo-symlinks",
+  "scripts": {
+    "build": "cd pkg2 && pnpm build && cd ../pkg1 && pnpm build"
+  }
+}

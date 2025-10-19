@@ -1,0 +1,16 @@
+{
+  "name": "@breaka/pkg1",
+  "version": "1.0.0",
+  "dependencies": {
+    "@breaka/pkg2": "1.0.0",
+    "@types/better-sqlite3": "^7.6.13",
+    "better-sqlite3": "^12.4.1",
+    "kysely": "^0.28.8"
+  },
+  "scripts": {
+    "build": "tsgo --build"
+  },
+  "devDependencies": {
+    "@typescript/native-preview": "7.0.0-dev.20250921.1"
+  }
+}
