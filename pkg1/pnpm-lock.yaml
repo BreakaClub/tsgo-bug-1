@@ -24,9 +24,9 @@ importers:
         specifier: ^0.28.8
         version: 0.28.8
     devDependencies:
-      '@typescript/native-preview':
-        specifier: 7.0.0-dev.20250921.1
-        version: 7.0.0-dev.20250921.1
+      typescript:
+        specifier: ^5.9.2
+        version: 5.9.3
 
 packages:
 
@@ -35,45 +35,6 @@ packages:
 
   '@types/node@24.8.1':
     resolution: {integrity: sha512-alv65KGRadQVfVcG69MuB4IzdYVpRwMG/mq8KWOaoOdyY617P5ivaDiMCGOFDWD2sAn5Q0mR3mRtUOgm99hL9Q==}
-
-  '@typescript/native-preview-darwin-arm64@7.0.0-dev.20250921.1':
-    resolution: {integrity: sha512-ajDsKKpVUSU16iWMjNvkKEW5u9Amr/jsVJvX2lKydQCRGn4gNzvDx8Fg5d4ty5xwHvNVdcjuKrVu1X76nkoh+w==}
-    cpu: [arm64]
-    os: [darwin]
-
-  '@typescript/native-preview-darwin-x64@7.0.0-dev.20250921.1':
-    resolution: {integrity: sha512-oYwS8LgU/RmYo/Msv5pMoYBkgeYTIdRBCnVZkH2OwulgtJgcQL+C5UchYvL25VjOKY6oGM8m1d6uyGlK2VfIww==}
-    cpu: [x64]
-    os: [darwin]
-
-  '@typescript/native-preview-linux-arm64@7.0.0-dev.20250921.1':
-    resolution: {integrity: sha512-hd6uwprQMKHF1rCB30C9hWzdOXOJxxOnTA8pd/ahSNF+rkUXWKrXRoqOcJea4fJ7zslSfxBQVqvKL1PBApHtUQ==}
-    cpu: [arm64]
-    os: [linux]
-
-  '@typescript/native-preview-linux-arm@7.0.0-dev.20250921.1':
-    resolution: {integrity: sha512-WQZdnn5ccZFyKV59kOtoVY7cgQToyfh7lWvBBCUBNbWMUzZrH3SJM5LfoMriMTQ8uaJcU/j8YFPhcRD++jlG/Q==}
-    cpu: [arm]
-    os: [linux]
-
-  '@typescript/native-preview-linux-x64@7.0.0-dev.20250921.1':
-    resolution: {integrity: sha512-GfcrJvxSw9GMXHOM/k3JLAAGHW/FC9mckv4xpBHdeU6scfWg1CO7ZwJc1pf4i/OLk2Ii8YECsjsZOExyRxE3bw==}
-    cpu: [x64]
-    os: [linux]
-
-  '@typescript/native-preview-win32-arm64@7.0.0-dev.20250921.1':
-    resolution: {integrity: sha512-EkhWExSsEllBmxjvTUEZF37RSJpiXBAkKjPW0F2WWUa0RXVr17ju4cLxDru/atDjDjWn3tknY7LVcUKi42h1JQ==}
-    cpu: [arm64]
-    os: [win32]
-
-  '@typescript/native-preview-win32-x64@7.0.0-dev.20250921.1':
-    resolution: {integrity: sha512-i5gKBbGF75gbNidEU5dZ+15LWLSPwZrvmeVv4vrtis0LhqcY2B8/G7drdiWaQIwOLbpeP//wzsowBM+CLVXnfg==}
-    cpu: [x64]
-    os: [win32]
-
-  '@typescript/native-preview@7.0.0-dev.20250921.1':
-    resolution: {integrity: sha512-hsPQJDSxLrLz4RBow4w49hY4Fx54VYgcVGBxCfxklIGWHinG/vcDIHrn8/LINJz6Yo70k2E8k4jRXSV+T/x9NA==}
-    hasBin: true
 
   base64-js@1.5.1:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
@@ -202,6 +163,11 @@ packages:
   tunnel-agent@0.6.0:
     resolution: {integrity: sha512-McnNiV1l8RYeY8tBgEpuodCC1mLUdbSN+CYBL7kJsJNInOP8UjDDEwdk6Mw60vdLLrr5NHKZhMAOSrR2NZuQ+w==}
 
+  typescript@5.9.3:
+    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
   undici-types@7.14.0:
     resolution: {integrity: sha512-QQiYxHuyZ9gQUIrmPo3IA+hUl4KYk8uSA7cHrcKd/l3p1OTpZcM0Tbp9x7FAtXdAYhlasd60ncPpgu6ihG6TOA==}
 
@@ -220,37 +186,6 @@ snapshots:
   '@types/node@24.8.1':
     dependencies:
       undici-types: 7.14.0
-
-  '@typescript/native-preview-darwin-arm64@7.0.0-dev.20250921.1':
-    optional: true
-
-  '@typescript/native-preview-darwin-x64@7.0.0-dev.20250921.1':
-    optional: true
-
-  '@typescript/native-preview-linux-arm64@7.0.0-dev.20250921.1':
-    optional: true
-
-  '@typescript/native-preview-linux-arm@7.0.0-dev.20250921.1':
-    optional: true
-
-  '@typescript/native-preview-linux-x64@7.0.0-dev.20250921.1':
-    optional: true
-
-  '@typescript/native-preview-win32-arm64@7.0.0-dev.20250921.1':
-    optional: true
-
-  '@typescript/native-preview-win32-x64@7.0.0-dev.20250921.1':
-    optional: true
-
-  '@typescript/native-preview@7.0.0-dev.20250921.1':
-    optionalDependencies:
-      '@typescript/native-preview-darwin-arm64': 7.0.0-dev.20250921.1
-      '@typescript/native-preview-darwin-x64': 7.0.0-dev.20250921.1
-      '@typescript/native-preview-linux-arm': 7.0.0-dev.20250921.1
-      '@typescript/native-preview-linux-arm64': 7.0.0-dev.20250921.1
-      '@typescript/native-preview-linux-x64': 7.0.0-dev.20250921.1
-      '@typescript/native-preview-win32-arm64': 7.0.0-dev.20250921.1
-      '@typescript/native-preview-win32-x64': 7.0.0-dev.20250921.1
 
   base64-js@1.5.1: {}
 
@@ -389,6 +324,8 @@ snapshots:
   tunnel-agent@0.6.0:
     dependencies:
       safe-buffer: 5.2.1
+
+  typescript@5.9.3: {}
 
   undici-types@7.14.0: {}
 
