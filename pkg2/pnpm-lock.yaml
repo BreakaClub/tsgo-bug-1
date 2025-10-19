@@ -22,7 +22,7 @@ importers:
         version: 0.28.8
     devDependencies:
       typescript:
-        specifier: ^5.9.2
+        specifier: ^5.8.3
         version: 5.9.3
 
 packages:
