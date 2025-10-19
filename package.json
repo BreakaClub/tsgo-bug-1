@@ -1,6 +1,7 @@
 {
   "name": "@breaka/tsgo-symlinks",
   "scripts": {
-    "build": "cd pkg2 && pnpm build && cd ../pkg1 && pnpm build"
+    "build": "cd pkg2 && pnpm build && cd ../pkg1 && pnpm build",
+    "build-tsc": "cd pkg2 && pnpm build-tsc && cd ../pkg1 && pnpm build-tsc"
   }
 }

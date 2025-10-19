@@ -8,9 +8,11 @@
     "kysely": "^0.28.8"
   },
   "scripts": {
-    "build": "tsc --build"
+    "build": "tsgo --build",
+    "build-tsc": "tsc --build"
   },
   "devDependencies": {
+    "@typescript/native-preview": "7.0.0-dev.20250921.1",
     "typescript": "^5.9.2"
   }
 }
